@@ -6,7 +6,6 @@ Install shortcut:
 
 ```bash
 npx skills add emaildeliverabilityskill
-npx skills add Sequenzy/emaildeliverabilityskill --skill emaildeliverabilityskill
 ```
 
 Raw skill folder: `skills/emaildeliverabilityskill`

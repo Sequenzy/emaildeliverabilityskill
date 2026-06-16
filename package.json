@@ -1,5 +1,5 @@
 {
-  "name": "email-deliverability",
+  "name": "emaildeliverabilityskill",
   "version": "0.1.0",
   "private": false,
   "description": "Email Deliverability Skill: inbox placement, authentication, reputation, and remediation workflows.",
@@ -12,12 +12,12 @@
     "codex-skill",
     "email",
     "agents",
-    "email-deliverability"
+    "emaildeliverabilityskill"
   ],
   "skill": {
-    "name": "email-deliverability",
-    "path": "skills/email-deliverability",
-    "install": "npx skills add email-deliverability",
-    "githubInstall": "npx skills add polnikale/emaildeliverabilityskill --skill email-deliverability"
+    "name": "emaildeliverabilityskill",
+    "path": "skills/emaildeliverabilityskill",
+    "install": "npx skills add emaildeliverabilityskill",
+    "githubInstall": "npx skills add polnikale/emaildeliverabilityskill --skill emaildeliverabilityskill"
   }
 }

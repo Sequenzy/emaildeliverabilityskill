@@ -1,5 +1,5 @@
 ---
-name: email-deliverability
+name: emaildeliverabilityskill
 description: Use when Codex or another AI agent needs to plan, review, implement, audit, or improve email work focused on inbox placement, authentication, reputation, and remediation workflows. Triggers include requests about DNS/authentication audits, Warmup plans, Complaint spike triage, email briefs, email QA, subscriber journeys, production handoffs, approval gates, and agent-safe email operations.
 ---
 

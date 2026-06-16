@@ -18,6 +18,6 @@
     "name": "emaildeliverabilityskill",
     "path": "skills/emaildeliverabilityskill",
     "install": "npx skills add emaildeliverabilityskill",
-    "githubInstall": "npx skills add polnikale/emaildeliverabilityskill --skill emaildeliverabilityskill"
+    "githubInstall": "npx skills add Sequenzy/emaildeliverabilityskill --skill emaildeliverabilityskill"
   }
 }

@@ -1,0 +1,13 @@
+{
+  "skills": [
+    {
+      "name": "emaildeliverabilityskill",
+      "title": "Email Deliverability Skill",
+      "description": "Email Deliverability Skill: inbox placement, authentication, reputation, and remediation workflows.",
+      "install": "npx skills add emaildeliverabilityskill",
+      "skill_url": "https://emaildeliverabilityskill.com/skills/emaildeliverabilityskill/SKILL.md",
+      "markdown_url": "https://emaildeliverabilityskill.com/skill/index.md",
+      "homepage_url": "https://emaildeliverabilityskill.com/"
+    }
+  ]
+}

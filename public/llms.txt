@@ -1,0 +1,22 @@
+# Email Deliverability Skill
+
+Email Deliverability Skill is a skill package for inbox placement, authentication, reputation, and remediation workflows.
+
+Install:
+
+```bash
+npx skills add emaildeliverabilityskill
+```
+
+## Primary agent resources
+
+- Markdown index: https://emaildeliverabilityskill.com/index.md
+- Skill page: https://emaildeliverabilityskill.com/skill/index.md
+- Raw SKILL.md: https://emaildeliverabilityskill.com/skills/emaildeliverabilityskill/SKILL.md
+- Skill discovery JSON: https://emaildeliverabilityskill.com/.well-known/skills/index.json
+
+## Articles
+
+- How to Build an Agent-Ready Email Deliverability Strategy: https://emaildeliverabilityskill.com/articles/agent-ready-email-strategy/index.md
+- The Practical Email Deliverability Operations Playbook for AI Agents: https://emaildeliverabilityskill.com/articles/email-operations-playbook/index.md
+- Email Deliverability Skill Audit Checklist: From Prompt to Production: https://emaildeliverabilityskill.com/articles/email-skill-audit-checklist/index.md

@@ -1,0 +1,23 @@
+{
+  "name": "email-deliverability",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Email Deliverability Skill: inbox placement, authentication, reputation, and remediation workflows.",
+  "type": "module",
+  "scripts": {
+    "build": "node -e \"console.log('static public site ready')\"",
+    "validate": "node scripts/validate.mjs"
+  },
+  "keywords": [
+    "codex-skill",
+    "email",
+    "agents",
+    "email-deliverability"
+  ],
+  "skill": {
+    "name": "email-deliverability",
+    "path": "skills/email-deliverability",
+    "install": "npx skills add email-deliverability",
+    "githubInstall": "npx skills add polnikale/emaildeliverabilityskill --skill email-deliverability"
+  }
+}

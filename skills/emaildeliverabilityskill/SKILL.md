@@ -1,28 +1,33 @@
 ---
 name: emaildeliverabilityskill
-description: Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or improve email work focused on inbox placement, authentication, reputation, and remediation workflows. Triggers include requests about DNS/authentication audits, Warmup plans, Complaint spike triage, email briefs, email QA, subscriber journeys, production handoffs, approval gates, and agent-safe email operations.
+description: "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or improve email work focused on inbox placement, authentication, sender reputation, complaint control, and remediation workflows. Triggers include requests about DNS authentication audits, warmup plans, complaint spike triage, blocklist checks, bounce analysis, and reputation recovery."
 ---
 
 # Email Deliverability Skill
 
-Use this skill to turn email work into an agent-safe operating routine. Start by identifying whether the task is analysis, drafting, implementation planning, QA, or production execution. Keep production execution behind explicit human approval.
+Protect the sender before chasing growth. Separate authentication, reputation, content, list quality, and provider issues before recommending action.
 
-## Workflow
+## When To Use
 
-1. Clarify the email surface: campaign, newsletter, automation, transactional message, template, deliverability issue, or reporting task.
-2. Ask for source material that changes the answer: audience, lifecycle stage, offer, sending platform, segment rules, screenshots or exports, recent metrics, brand voice, compliance constraints, and existing copy.
-3. Produce structured output with these headings when relevant: assumptions, missing inputs, recommendation, draft or implementation notes, QA checks, risk level, and approval needed.
-4. Do not send, import contacts, alter suppression rules, change DNS, or modify production automations without explicit confirmation.
-5. If the task is complex or high risk, read references/operating-checklist.md before finalizing.
+Use this skill for inbox placement, authentication, sender reputation, complaint control, and remediation workflows. It is designed for agent workflows where email work must be specific, reviewable, and safe across planning, drafting, implementation, QA, or operational handoff.
+
+## Operating Workflow
+
+1. Classify the deliverability problem: authentication failure, bounce spike, complaint spike, spam-folder placement, throttling, blocklist, or engagement decay.
+2. Collect evidence by domain, provider, segment, campaign, and time window rather than treating all mail as one stream.
+3. Check SPF, DKIM, DMARC, custom tracking domain, bounce domain, alignment, and recent DNS changes.
+4. Review list acquisition, consent, suppression, frequency, reactivation, and recent imports for reputation risk.
+5. Recommend a staged remediation plan with stop-loss thresholds, monitoring cadence, and owner for each action.
+6. Keep DNS edits, suppression changes, imports, provider migrations, and production throttling behind explicit approval.
 
 ## Review Criteria
 
-- The recommendation matches inbox placement, authentication, reputation, and remediation workflows.
-- The audience and permission basis are clear.
-- The message promise, segment, timing, and call to action are consistent.
-- Deliverability, unsubscribe, complaint, and compliance risks are surfaced.
-- Any live-system action is separated from analysis or drafting.
+- Authentication advice distinguishes missing records from alignment failures.
+- Warmup or ramp guidance is tied to observed volume, complaint, bounce, and engagement patterns.
+- Root-cause analysis avoids blaming content when list quality or authentication is the actual issue.
+- Remediation includes what to pause, what to monitor, and when to resume.
+- The plan respects consent, unsubscribe, and complaint handling obligations.
 
 ## Output Pattern
 
-Return concise, executable artifacts: briefs, checklists, diffs, campaign outlines, sequence maps, QA tables, or post-send retrospectives. Prefer concrete next actions over generic best practices.
+Return DNS/authentication audits, reputation triage notes, warmup schedules, suppression reviews, monitoring plans, and remediation runbooks. Keep recommendations concrete. Separate analysis from live-system actions, and require explicit approval before sending email, importing contacts, changing DNS, altering suppression rules, or editing production automations.

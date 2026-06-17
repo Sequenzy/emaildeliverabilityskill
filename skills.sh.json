@@ -1,0 +1,13 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Deliverability",
+      "description": "Authentication, reputation, warmup, and remediation workflows.",
+      "skills": [
+        "emaildeliverabilityskill"
+      ]
+    }
+  ]
+}

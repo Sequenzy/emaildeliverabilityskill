@@ -7,11 +7,26 @@ description: "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another 
 
 Protect the sender before chasing growth. Separate authentication, reputation, content, list quality, and provider issues before recommending action.
 
-## When To Use
+## Scope
 
-Use this skill for inbox placement, authentication, sender reputation, complaint control, and remediation workflows. It is designed for agent workflows where email work must be specific, reviewable, and safe across planning, drafting, implementation, QA, or operational handoff.
+inbox placement, authentication, sender reputation, complaint control, and remediation workflows.
 
-## Operating Workflow
+## Request Signals
+
+DNS authentication audits, warmup plans, complaint spike triage, blocklist checks, bounce analysis, and reputation recovery.
+
+## Guardrails
+
+1. Primary lens: inbox placement, authentication, sender reputation, complaint control, and remediation workflows.
+2. Common request signals: DNS authentication audits, warmup plans, complaint spike triage, blocklist checks, bounce analysis, and reputation recovery.
+3. Default posture: Protect the sender before chasing growth. Separate authentication, reputation, content, list quality, and provider issues before recommending action.
+4. Useful output family: DNS/authentication audits, reputation triage notes, warmup schedules, suppression reviews, monitoring plans, and remediation runbooks.
+5. Production boundary: separate recommendation from execution.
+6. Evidence boundary: say which source material supports the recommendation.
+7. Review boundary: identify the human owner for risky changes.
+8. Data boundary: do not assume missing fields, consent, or suppression state.
+
+## Execution Path
 
 1. Classify the deliverability problem: authentication failure, bounce spike, complaint spike, spam-folder placement, throttling, blocklist, or engagement decay.
 2. Collect evidence by domain, provider, segment, campaign, and time window rather than treating all mail as one stream.
@@ -20,7 +35,7 @@ Use this skill for inbox placement, authentication, sender reputation, complaint
 5. Recommend a staged remediation plan with stop-loss thresholds, monitoring cadence, and owner for each action.
 6. Keep DNS edits, suppression changes, imports, provider migrations, and production throttling behind explicit approval.
 
-## Review Criteria
+## Reviewer Notes
 
 - Authentication advice distinguishes missing records from alignment failures.
 - Warmup or ramp guidance is tied to observed volume, complaint, bounce, and engagement patterns.
